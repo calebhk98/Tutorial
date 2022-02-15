@@ -1,0 +1,11 @@
+package com.revature.main;
+
+import com.revature.model.SportsCar;
+
+
+public class Driver {
+	public static void main(String[] args) {
+		SportsCar sc1 = new SportsCar();
+		sc1.lap();
+	}
+}

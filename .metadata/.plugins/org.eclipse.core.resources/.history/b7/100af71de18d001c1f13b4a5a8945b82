@@ -1,0 +1,25 @@
+package com.revature.model;
+
+public class SportsCar {
+
+	public String make;
+	public String model;
+	public String color;
+	public int hp;
+	public int year;
+	public int torque;
+
+	public SportsCar(String make, String model, String color, int hp, int year, int torque) {
+		this.make=make;
+		this.model=model;
+		this.color=color;
+		this.hp=hp;
+		this.year=year;
+		this.torque=torque;
+	}
+	
+	public void lap() {
+		System.out.println(this.make);
+		
+	}
+}

@@ -1,0 +1,15 @@
+package com.revature.model;
+
+public class SportsCar {
+
+	public String make;
+	public String model;
+	public String color;
+	public int hp;
+	public int year;
+	public int torque;
+	public void lap() {
+		System.out.println("Zoom");
+		
+	}
+}
